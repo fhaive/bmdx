@@ -1,0 +1,38 @@
+Package: bmdx
+Title: BMDx: Dose dependent analysis
+Version: 2.0
+Authors@R: c(person("Angela", "Serra", ,"angela.serra@tuni.fi", role = c("aut", "cre"),
+            comment = c(ORCID = "0000-0002-3374-1492")),
+           person("Michele", "Fratello", , "michele.fratello@tuni.fi", role = c("ctb"),
+            comment = c(ORCID = ""))
+           )
+Description: The BMDx R package offers a robust solution for Benchmark Dose (BMD) analysis of transcriptomics data. The package employs a sophisticated approach involving the fitting of diverse models and selecting the optimal one based on the Akaike Information Criterion (AIC) or model average. Key functionalities of BMDx include the computation of BMD, related values, and IC50/EC50 estimations.BMDx particularly excels in comparing BMD values across different time points within a transcriptomics experiment.  BMDx is adept at handling and analyzing multiple experiments concurrently, enhancing the efficiency of dataset assessment and promoting informed decision-making through thorough data analysis.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 3.5.0)
+LazyData: true
+Imports: 
+    car,
+    dendextend,
+    dplyr,
+    drc,
+    ggplot2,
+    heatmaply,
+    investr,
+    limma,
+    modelr,
+    readxl,
+    trend,
+    viridis,
+    utils,
+    minpack.lm,
+    stats,
+    forcats,
+    plotly,
+    UpSetR,
+    igraph,
+    visNetwork,
+    networkD3,
+    scam
