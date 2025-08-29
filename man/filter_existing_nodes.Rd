@@ -4,7 +4,12 @@
 \alias{filter_existing_nodes}
 \title{Filter Edges Between Existing Nodes in a Graph}
 \usage{
-filter_existing_nodes(graph, edge_df)
+filter_existing_nodes(
+  graph,
+  edge_df,
+  feature1 = "Feature 1",
+  feature2 = "Feature 2"
+)
 }
 \arguments{
 \item{graph}{An \code{igraph} object containing the network structure.}

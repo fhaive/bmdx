@@ -4,7 +4,12 @@
 \alias{check_edges_in_graph}
 \title{Check Presence of Edges in a Graph}
 \usage{
-check_edges_in_graph(graph, edge_df)
+check_edges_in_graph(
+  graph,
+  edge_df,
+  feature1 = "Feature 1",
+  feature2 = "Feature 2"
+)
 }
 \arguments{
 \item{graph}{An \code{igraph} object representing the graph to check against.}
