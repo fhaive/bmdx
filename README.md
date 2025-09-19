@@ -92,21 +92,6 @@ x = "dose"
 y = "expr"
 sample_id_col = "sample_id"
 dose_id_col = "condition"
-other_variables_id_col = NULL
-
-data_dictionary = create_data_structure(experimental_data,
-                                             metadata,
-                                             sample_id_col = sample_id_col,
-                                             dose_id_col = dose_id_col,
-                                             other_variables_id_col = other_variables_id_col ,
-                                             x = x,
-                                             y = y)
-
-# CONVERT DATA FOR MODELLING
-x = "dose"
-y = "expr"
-sample_id_col = "sample_id"
-dose_id_col = "condition"
 time_col_id = "timepoint"
 other_variables_id_col = NULL
 
