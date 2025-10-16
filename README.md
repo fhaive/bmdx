@@ -8,7 +8,7 @@ It is a reimplementation of the code originally provided in the **bmdx Shiny app
 
 ## 📖 Manual
 The package manual is available here:  
-[**manual**](https://github.com/fhaive/bmdx/blob/main/manual.0.pdf)
+[**manual**](https://github.com/fhaive/bmdx/blob/main/manual.pdf)
 
 The manual was generated using:
 ```r
