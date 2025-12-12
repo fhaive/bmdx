@@ -17,7 +17,22 @@ devtools::build_manual(path = ".")
 
 ---
 
-## 💻 Installation
+## 💻 Installation (from GitHub)
+
+1. **Get "remotes" package**:
+
+   ```r
+   install.packages("remotes")
+   ```
+   
+2. **Install the package from GitHub**
+   
+   ```r
+   # check required dependencies in "Dependencies" section
+   remotes::install_github(repo="fhaive/bmdx")
+   ```
+   
+## 💻 Installation (build local)
 
 1. **Create tar.gz file**:  
 
